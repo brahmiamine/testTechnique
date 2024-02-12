@@ -1,0 +1,1402 @@
+.custom-background {
+  margin-left: 40px;
+}
+
+#inputEmail {
+  border: 1px solid grey;
+  width: 250px;
+  height: 40px;
+  padding-left: 30px;
+}
+#inputName {
+  border: 1px solid grey;
+  width: 250px;
+  height: 40px;
+  padding-left: 30px;
+}
+
+label {
+  padding: 0%;
+  font-size: 12px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.connecter {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+#inputEmail::placeholder {
+  font-size: small;
+  font-family: "Noto Sans", sans-serif;
+}
+#inputName::placeholder {
+  font-size: small;
+  font-family: "Noto Sans", sans-serif;
+}
+#inputPassword::placeholder {
+  font-size: large;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#inputPassword::placeholder {
+  justify-content: center;
+}
+
+.main {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.left {
+  height: 100vh;
+  width: 35%;
+}
+
+@media (max-width: 576px) {
+  .left {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.boite {
+  font-family: "Noto Sans", sans-serif;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  border-top: 1px solid rgb(238, 236, 236);
+  border-bottom: 1px solid rgb(238, 236, 236);
+}
+
+@media (max-width: 768px) {
+  .two {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.nav {
+  height: 5vh;
+  font-family: "Noto Sans", sans-serif;
+  width: 100vw;
+}
+
+.one {
+  font-family: "Noto Sans", sans-serif;
+
+  font-size: x-small;
+  padding-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .one {
+    font-size: 3px;
+    width: auto;
+  }
+}
+
+.two {
+  font-size: xx-small;
+  color: rgb(77, 76, 76);
+  padding-right: 3px;
+  display: flex;
+  font-family: "Noto Sans", sans-serif;
+
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .two {
+    font-size: 5px;
+    width: fit-content;
+  }
+}
+
+.message {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid rgb(238, 236, 236);
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Noto Sans", sans-serif;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .message {
+    height: 50px;
+    width: 100%;
+  }
+}
+
+.name-para {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 70%;
+}
+
+.name {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.message-preview {
+  font-size: 9px;
+}
+
+.time {
+  font-size: small;
+  color: gray;
+  padding-right: 20px;
+}
+
+.unread {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: rgb(70, 168, 207);
+  padding-left: s0px;
+}
+
+#letter {
+  font-size: 200px;
+  color: white;
+  transform: translateX(100%);
+  margin-top: 25%;
+  margin-right: 300px;
+}
+
+@media (max-width: 768px) {
+  #letter {
+    margin-right: 250px;
+  }
+
+  .right {
+    display: flex;
+  }
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  background-image: url(/assets/images/user.png);
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.logo-make {
+  display: flex;
+}
+
+.circle {
+  margin-left: 0%;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .circle {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.p {
+  padding: 3px;
+  background-color: white;
+  font-family: "Noto Sans", sans-serif;
+  color: black;
+  font-size: 5px;
+  z-index: 2;
+  margin-top: 15px;
+  margin-left: 18px;
+}
+
+.right-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+  margin-right: 20px;
+}
+
+.logo-content {
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.message-con {
+  width: 100%;
+  background-color: white;
+}
+
+.icons {
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 400px;
+  margin-top: 25px;
+}
+
+.heading2 {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.heading3 {
+  font-size: 10px;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0%;
+  margin: 0%;
+  margin-left: 20px;
+}
+
+.fa-bars {
+  opacity: 0;
+}
+
+.con {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Media query for width 768px */
+@media (max-width: 768px) {
+  /* Add your styles here */
+  .icon-at-768px {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Noto Sans", sans-serif;
+  background-color: white;
+  display: flex;
+}
+
+.left-container {
+  height: 100%;
+  width: 35%;
+  background-color: white;
+}
+
+.right-container {
+  height: 100%;
+  width: 65%;
+  background-image: url(/assets/images/sneakers.png);
+  background-size: cover;
+}
+
+.logo {
+  height: 30px;
+  width: 160px;
+  background-image: url(/assets/images/logo.png);
+  background-size: cover;
+  margin-top: 20px;
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    height: 20px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+}
+
+.heading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: x-large;
+  font-weight: 700;
+  margin-top: 30%;
+  margin-left: 10%;
+  padding-bottom: 10%;
+}
+
+#inputPassword {
+  border: 1px solid grey;
+  width: 250px;
+  height: 40px;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.custom-background {
+  margin-left: 40px;
+}
+
+#inputEmail {
+  border: 1px solid grey;
+  width: 250px;
+  height: 40px;
+}
+
+#inputName {
+  border: 1px solid grey;
+  width: 250px;
+  height: 40px;
+}
+
+@media (max-width: 992px) {
+  #inputEmail {
+    border: 1px solid grey;
+    width: 200px;
+    margin-right: 100px;
+    height: 40px;
+  }
+  #inputName {
+    border: 1px solid grey;
+    width: 200px;
+    margin-right: 100px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .right-container {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  #inputPassword {
+    border: 1px solid grey;
+    width: 200px;
+    font-family: "Noto Sans", sans-serif;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  #inputEmail {
+    border: 1px solid grey;
+    width: 170px;
+    margin-right: 100px;
+    height: 40px;
+  }
+
+  #inputName {
+    border: 1px solid grey;
+    width: 170px;
+    margin-right: 100px;
+    height: 40px;
+  }
+
+  #inputPassword::placeholder {
+    font-size: small;
+  }
+}
+
+@media (max-width: 768px) {
+  #inputPassword {
+    border: 1px solid grey;
+    width: 170px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  #inputEmail {
+    border: 1px solid grey;
+    width: 250px;
+    margin-left: 200px;
+    height: 40px;
+  }
+
+  #inputName {
+    border: 1px solid grey;
+    width: 250px;
+    margin-left: 200px;
+    height: 40px;
+  }
+
+  #inputPassword::placeholder {
+    font-size: small;
+  }
+}
+
+@media (max-width: 576px) {
+  #inputPassword {
+    border: 1px solid grey;
+    width: 250px;
+    height: 40px;
+    margin-left: 200px;
+  }
+}
+
+label {
+  padding: 0%;
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+}
+
+.connecter {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 3px;
+}
+
+@media (max-width: 576px) {
+  .connecter {
+    margin-left: 200px;
+  }
+
+  .heading {
+    margin-left: 60px;
+  }
+}
+
+#inputEmail::placeholder {
+  font-size: small;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#inputPassword::placeholder {
+  font-size: large;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#inputPassword::placeholder {
+  justify-content: center;
+}
+
+.main {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.left {
+  height: 100vh;
+  width: 35%;
+}
+
+.right {
+  height: 100vh;
+  width: 85%;
+  background-color: rgb(238, 236, 236);
+}
+
+.boite {
+  font-family: "Noto Sans", sans-serif;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  border-top: 1px solid rgb(238, 236, 236);
+  border-bottom: 1px solid rgb(238, 236, 236);
+}
+
+.nav {
+  height: 5vh;
+  font-family: "Noto Sans", sans-serif;
+  width: 100vw;
+}
+
+.one {
+  font-family: "Noto Sans", sans-serif;
+  font-size: x-small;
+  padding-left: 5px;
+}
+
+.two {
+  font-size: xx-small;
+  color: rgb(77, 76, 76);
+  padding-right: 3px;
+  display: flex;
+  font-family: "Noto Sans", sans-serif;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.message {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid rgb(238, 236, 236);
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Noto Sans", sans-serif;
+  height: 70px;
+}
+
+.message:hover {
+  background-color: rgb(242, 251, 255);
+}
+
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.name-para {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.name {
+  font-size: x-small;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+}
+
+.fa-envelope {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 200px;
+  color: white;
+  margin-top: 150px;
+}
+
+.time {
+  font-size: 10px;
+  font-family: "Noto Sans", sans-serif;
+  color: gray;
+  padding-right: 20px;
+}
+
+.readed {
+  background-color: rgb(202, 201, 201);
+  height: 16px;
+  font-family: "Noto Sans", sans-serif;
+  width: 16px;
+  border-radius: 50%;
+}
+
+.fa-key {
+  position: absolute;
+  top: 74%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: white;
+  -webkit-text-stroke: 1.5px grey;
+}
+
+.unread {
+  height: 15px;
+  font-family: "Noto Sans", sans-serif;
+  width: 15px;
+  border-radius: 50%;
+  background-color: rgb(70, 168, 207);
+}
+
+#letter {
+  font-size: 200px;
+  color: white;
+  transform: translateX(100%);
+  margin-top: 25%;
+  margin-right: 300px;
+}
+
+.name1 {
+  font-size: small;
+}
+
+.gmail {
+  font-size: x-small;
+}
+
+.fa-arrow-up-from-bracket {
+  rotate: 90deg;
+  font-size: large;
+  font-family: "Noto Sans", sans-serif;
+  padding-left: 30px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+}
+
+.circle1 {
+  height: 30px;
+  width: 30px;
+  background-image: url(/assets/images/user.png);
+  font-family: "Noto Sans", sans-serif;
+  background-size: cover;
+  border: none;
+  border-radius: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+  justify-content: space-between;
+}
+
+.logo-make {
+  display: flex;
+}
+
+.circle1 {
+  margin-left: 0%;
+  position: absolute;
+  height: 30px;
+  font-family: "Noto Sans", sans-serif;
+  width: 30px;
+  z-index: -1;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.p {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 50%;
+  background-color: white;
+  font-family: "Noto Sans", sans-serif;
+  color: black;
+  font-size: x-small;
+  font-family: "Noto Sans", sans-serif;
+  z-index: 2;
+  margin-top: 15px;
+  margin-left: 18px;
+}
+
+@media (max-width: 872px) {
+  .one {
+    font-size: xx-small;
+  }
+}
+
+@media (max-width: 840px) {
+  .one {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 872px) {
+  .two {
+    font-size: xx-small;
+  }
+}
+
+@media (max-width: 840px) {
+  .two {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 806px) {
+  .one {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 806px) {
+  .two {
+    font-size: 7px;
+  }
+
+  .message-preview {
+    font-size: 7px;
+  }
+
+  .checkbox {
+    font-size: 5px;
+  }
+
+  .Afficher {
+    font-size: 5px;
+  }
+}
+
+.Afficher {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+@media (max-width: 1080px) {
+  .message-preview {
+    font-size: 10px;
+  }
+
+  .time {
+    font-size: 9px;
+  }
+
+  .unread {
+    height: 16px;
+    width: 16px;
+  }
+
+  .readed {
+    height: 16px;
+    width: 16px;
+  }
+
+  .name-para {
+    margin-left: 20px;
+  }
+
+  .unread {
+    margin-left: 10px;
+  }
+
+  .readed {
+    margin-left: 10px;
+  }
+
+  .message {
+    height: 49px;
+  }
+
+  .circle {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+@media (max-width: 980px) {
+  .circle {
+    height: 30px;
+    width: 30px;
+  }
+
+  .message-preview {
+    font-size: 8px;
+  }
+
+  .time {
+    font-size: 9px;
+  }
+
+  .unread {
+    height: 12px;
+    width: 12px;
+  }
+}
+
+.readed {
+  height: 12px;
+  width: 12px;
+}
+
+.name-para {
+  margin-left: 18px;
+}
+
+.unread {
+  margin-left: 10px;
+}
+
+.readed {
+  margin-left: 10px;
+}
+
+.name-para {
+  margin-left: 20px;
+}
+
+.message {
+  height: 49px;
+}
+
+.name {
+  font-size: 10px;
+}
+
+@media (max-width: 880px) {
+  .message-preview {
+    font-size: 8px;
+  }
+
+  .time {
+    font-size: 9px;
+  }
+
+  .unread {
+    height: 11px;
+    width: 11px;
+  }
+
+  .readed {
+    height: 11px;
+    width: 11px;
+  }
+
+  .name-para {
+    margin-left: 17px;
+  }
+
+  .name-para {
+    margin-left: 20px;
+  }
+
+  .unread {
+    margin-left: 10px;
+  }
+
+  .readed {
+    margin-left: 10px;
+  }
+
+  .message {
+    height: 48px;
+  }
+
+  .name {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  .message-preview {
+    font-size: 7px;
+  }
+
+  .one {
+    font-size: 6px;
+  }
+
+  .fa-envelope {
+    font-size: 120px;
+    margin-top: 150px;
+  }
+
+  .time {
+    font-size: 8px;
+  }
+
+  .unread {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+.readed {
+  height: 10px;
+  width: 10px;
+}
+
+.name-para {
+  margin-left: 15px;
+}
+
+.unread {
+  margin-left: 10px;
+}
+
+.readed {
+  margin-left: 10px;
+}
+
+.name-para {
+  margin-left: 20px;
+}
+
+.message {
+  height: 55px;
+}
+
+.name {
+  font-size: 11px;
+}
+
+@media (max-width: 680px) {
+  .message-preview {
+    font-size: 6px;
+  }
+
+  .fa-envelope {
+    font-size: 100px;
+    margin-top: 150px;
+  }
+
+  .one {
+    font-size: 6px;
+  }
+
+  .name-para {
+    margin-left: 20px;
+  }
+
+  .time {
+    font-size: 7px;
+  }
+
+  .unread {
+    height: 9px;
+    width: 9px;
+  }
+
+  .name-para {
+    margin-left: 11px;
+  }
+
+  .unread {
+    margin-left: 10px;
+  }
+
+  .readed {
+    margin-left: 10px;
+  }
+
+  .message {
+    height: 44px;
+  }
+
+  .name {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 580px) {
+  .fa-envelope {
+    font-size: 80px;
+    margin-top: 150px;
+  }
+
+  .message-preview {
+    font-size: 5px;
+  }
+
+  .one {
+    font-size: 4px;
+  }
+
+  .name-para {
+    margin-left: 8px;
+  }
+
+  .time {
+    font-size: 6px;
+  }
+
+  .unread {
+    height: 8px;
+    width: 8px;
+  }
+
+  .name-para {
+    margin-left: 20px;
+  }
+
+  .unread {
+    margin-left: 10px;
+  }
+
+  .readed {
+    margin-left: 10px;
+  }
+
+  .message {
+    height: 42px;
+  }
+
+  .name {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .message-preview {
+    font-size: 8px;
+  }
+
+  .right {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .left {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .fa-bars {
+    opacity: 1;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+
+  .one {
+    font-size: 8px;
+    padding-left: 10px;
+  }
+
+  .two {
+    font-size: 9px;
+    padding-right: 10px;
+  }
+
+  .time {
+    font-size: 9px;
+  }
+
+  .unread {
+    height: 8px;
+    width: 8px;
+  }
+
+  .readed {
+    height: 8px;
+    width: 8px;
+  }
+
+  .name-para {
+    margin-left: 20px;
+  }
+
+  .name-para {
+    margin-left: 5px;
+  }
+
+  .unread {
+    margin-left: 10px;
+  }
+
+  .message {
+    height: 45px;
+    width: 100%;
+    background-color: white;
+  }
+
+  .box1 {
+    margin-right: 10px;
+  }
+
+  .fa-angle-left {
+    font-size: small;
+  }
+
+  .fa-angle-right {
+    font-size: small;
+  }
+
+  .para2 {
+    font-size: 15px;
+  }
+
+  .message:hover {
+    background-color: rgb(242, 251, 255);
+  }
+
+  .name {
+    font-size: 10px;
+  }
+}
+
+.readed {
+  height: 15px;
+  width: 15px;
+}
+
+@media (max-width: 1080px) {
+  .readed {
+    height: 16px;
+    width: 16px;
+  }
+}
+
+@media (max-width: 980px) {
+  .readed {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+@media (max-width: 880px) {
+  .readed {
+    height: 12px;
+    width: 12px;
+  }
+}
+
+@media (max-width: 780px) {
+  .readed {
+    height: 11px;
+    width: 11px;
+  }
+}
+
+@media (max-width: 680px) {
+  .readed {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .readed {
+    height: 8px;
+    width: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .readed {
+    height: 8px;
+    width: 8px;
+  }
+}
+
+#checkbox {
+  width: 10px;
+  font-family: "Noto Sans", sans-serif;
+  height: 10px;
+}
+
+@media only screen and (max-width: 780px) {
+  #checkbox {
+    width: 8px;
+    height: 8px;
+  }
+}
+#form-group {
+  position: relative;
+}
+
+.fa-user {
+  position: absolute;
+  top: 74%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: white;
+  -webkit-text-stroke: 1.5px grey;
+}
+
+.message-con {
+  margin-top: 0px;
+  font-family: "Noto Sans", sans-serif;
+  height: 40vh;
+}
+
+.para2 {
+  font-size: 8px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-family: "Noto Sans", sans-serif;
+  margin-top: 10px;
+}
+
+.heading3 {
+  margin-left: 0px;
+  margin-right: 20px;
+  color: rgb(85, 160, 190);
+  margin-bottom: 20px;
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 20px;
+  font-weight: normal;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.heading4 {
+  margin-left: 0px;
+  margin-right: 20px;
+  color: rgb(61, 61, 61);
+  margin-bottom: 20px;
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 20px;
+  font-weight: bold;
+  padding-bottom: 0;
+  font-size: 10px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.heading2 {
+  color: gray;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 880px) {
+  .para2 {
+    font-size: 6px;
+  }
+
+  .heading3,
+  .heading4,
+  .heading2 {
+    font-size: 5px;
+  }
+
+  .heading2 {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+.page-number {
+  font-size: 11px;
+  color: gray;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 780px) {
+  .para2 {
+    font-size: 4px;
+  }
+
+  .heading2 {
+    font-size: 6px;
+  }
+
+  .message-con {
+    height: 40vh;
+  }
+
+  .page-number {
+    font-size: 9px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .para2 {
+    font-size: 4px;
+  }
+
+  .message-con {
+    height: 30vh;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .para2 {
+    font-size: 3px;
+  }
+
+  .message-con {
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .para2 {
+    font-size: 8px;
+  }
+
+  .message-con {
+    height: 20vh;
+  }
+}
+
+.box {
+  display: flex;
+  text-align: end;
+  width: 100%;
+  justify-content: end;
+  margin: 0%;
+  padding: 0%;
+  margin-top: 30px;
+}
+
+.box1 {
+  display: flex;
+}
+.left {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.message-detail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.message-compose {
+  margin-top: 0px;
+  font-family: "Noto Sans", sans-serif;
+  height: 78vh;
+  width: 100%;
+  background-color: white;
+  margin: 30px;
+  padding: 20px;
+}
